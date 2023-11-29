@@ -1,0 +1,6 @@
+1: A setNev nem kéri be az "$n" argumentumot.
+2: A getNev bekéri az "$n" argumentumot pedig nem kell.
+3: A macska osztálynak nincs konstruktora, mégis egy argumentum megadásával akarja a program példányosítani.
+4: Az objektum "nev" privát paraméterének a program meg akarja adni a nevét az osztályon kívül.
+5: Az "udv" metódus meghívását nem kell kiprintelni, mert nem return van benne hanem print.
+6: A setNev ben nem kell "$" a "nev" elé.

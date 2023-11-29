@@ -1,0 +1,288 @@
+/**
+ * Rtl css
+ */
+.wp-block-navigation .wp-block-navigation__submenu-container li a:hover,
+.wp-block-navigation .wp-block-navigation__submenu-container li a:focus,
+.wp-block-navigation__submenu-container .wp-block-navigation-item.current-menu-item .wp-block-navigation-item__content {
+  transform: translateX(-10px);
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+}
+
+.subscribe-section .has-text-align-left {
+  text-align: right;
+}
+
+.catch-breadcrumb.left .entry-breadcrumbs,
+.catch-breadcrumb.left .woocommerce-breadcrumb {
+  text-align: right;
+}
+
+.has-drop-cap:not(:focus):first-letter {
+  float: right;
+  margin: 0.05em 0 0.05em 0.1em;
+}
+
+.wp-block-widget-area ul,
+.wp-block-latest-posts.wp-block-latest-posts__list {
+  padding-right: 0;
+}
+
+.wp-block-archives-list>li>a,
+.wp-block-categories-list>li>a {
+  float: right;
+}
+
+.wp-block-sidebar .wp-block-archives-list>li,
+.wp-block-sidebar .wp-block-categories-list>li {
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+.wp-block-sidebar .wp-block-widget .wp-block-categories li:before {
+  left: auto;
+  right: 0;
+}
+
+.single-product.woocommerce span.onsale {
+  left: auto;
+  right: 10px;
+}
+
+.wp-block-group.wp-block-post-meta>div:not(:last-child):after {
+  left: -13px;
+  right: auto;
+}
+
+.wp-block-latest-posts__list li .wp-block-latest-posts__featured-image {
+  float: right;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.wp-block-post-comments .comment-author .avatar {
+  border-radius: 50%;
+  float: right;
+  height: 65px;
+  margin-right: 0;
+  margin-left: 21px;
+  width: 65px;
+}
+
+.wp-block-post-comments .commentlist .comment {
+  padding-left: 0;
+  padding-right: 3.25em;
+}
+
+.wp-block-post-comments .commentlist>li.comment {
+  padding-right: 0;
+}
+
+figure.wp-block-pullquote.alignright.has-text-align-right.is-style-catch-fse-pullquote {
+  margin-left: 2em;
+  margin-right: 0;
+}
+
+figure.wp-block-pullquote.alignleft.has-text-align-left.is-style-catch-fse-pullquote {
+  margin-left: 0;
+  margin-right: 2em;
+}
+
+button.wp-block-navigation__responsive-container-close {
+  left: auto;
+  right: 0;
+}
+
+.wp-block-navigation .wp-block-navigation__submenu-container li a:before {
+  left: auto;
+  right: 0;
+}
+
+svg.icon {
+  margin-left: 7px;
+  margin-right: 0;
+}
+
+.contact-section .wp-block-group.section-heading {
+  text-align: right;
+}
+
+
+.contact-section .wp-block-group.section-heading .wp-block-separator {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+.location-section p {
+  text-align: left;
+}
+
+.footer-contact .wp-block-media-text {
+  flex-direction: row-reverse;
+}
+
+.footer-contact .wp-block-media-text .wp-block-media-text__media {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.wp-block-post-author__avatar {
+  margin-left: clamp(21px, 3vw, 35px);
+  margin-right: 0;
+}
+
+.post-navigation-link-container .wp-block-columns {
+  direction: ltr;
+}
+
+.comment-content,
+.comment-metadata,
+.reply {
+  padding-left: 0;
+  padding-right: clamp(82px, 8vw, 128px);
+}
+
+.is-content-justification-left.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-icon svg {
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container {
+  left: auto;
+  right: 0;
+}
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container {
+  left: auto;
+  right: 100%;
+}
+
+.hero-section .has-text-align-left {
+  text-align: right;
+}
+
+.hero-section .hero-content {
+  transform: translateX(-20%);
+}
+
+.hero-section.transition-element .hero-content {
+  transform: translateX(0);
+}
+
+.media-content .header-meta:after {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.media-content .last-item {
+  direction: initial;
+}
+
+.media-content h2 {
+  text-align: right;
+}
+
+.woocommerce .woocommerce-message a {
+  float: left;
+}
+
+.hero-section {
+  direction: rtl;
+}
+
+/* ==============================
+           MEDIA QUERIES 
+================================= */
+
+@media (min-width: 782px) {
+  .wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container {
+    right: -100%;
+    left: auto;
+  }
+
+  .subscribe-section .tnp-subscription-minimal form {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
+/* --- > 600px
+-------------------------------------------------------- */
+
+@media screen and (max-width: 37.5em) {
+  .site-section {
+    width: 435px;
+  }
+
+  .hero-section .hero-content .wp-block-media-text__content {
+    padding-left: 13%;
+    padding-right: 0;
+  }
+
+  .header .wp-block-navigation {
+    position: unset;
+  }
+
+  .header .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    left: 0;
+    right: auto;
+  }
+}
+
+/* --- > 601px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 37.5625em) {
+
+  .wp-block-media-text.is-stacked-on-mobile.has-media-on-the-right .wp-block-media-text__content {
+    padding-left: 13%;
+    padding-right: 0;
+  }
+}
+
+
+/* --- > 768px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 48em) {
+  .editor-styles-wrapper .event-section.wp-block-section .wp-block-columns .wp-block-column:not(:last-child) {
+    border-left: 1px solid;
+    border-right: 0;
+  }
+}
+
+
+/* --- > 768px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 64em) {
+  .hero-section:before {
+    right: 34.5%;
+    left: auto;
+  }
+}
+
+@media screen and (min-width: 85.375em) {
+  .hero-section:before {
+    left: auto;
+    right: 34%;
+  }
+
+  .wp-block-section.hero-section .content {
+    padding-right: 0;
+    padding-left: 29%;
+  }
+}
+
+@media screen and (min-width: 85.375em) {
+  .woocommerce-cart main .woocommerce .cart-collaterals {
+    margin-left: 0;
+    width: 25%;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 5%;
+  }
+}

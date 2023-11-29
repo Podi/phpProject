@@ -1,0 +1,19 @@
+.promotional-section {
+    .wp-block-columns {
+        max-width: 1060px;
+        margin-inline: auto;
+
+        .promo-content {
+            max-width: 680px;
+            margin-inline: auto;
+        }
+    }
+
+    h2 {
+        font-size: var(--wp--preset--font-size--big-heading);
+
+        mark {
+            font-style: italic;
+        }
+    }
+}

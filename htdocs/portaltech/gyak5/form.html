@@ -1,0 +1,21 @@
+<?php  
+header("Content-type: text/html; charset=utf-8");  
+?> 
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>form</title>
+</head>
+	<body>
+		<form action="form.php" method="post">
+			<p>Név: <input type="text" name="nev"></p>
+			<p>Kor: <input type="text" name="kor"></p>
+			<p>Cím: <input type="text" name="cim"></p>
+			<p>Nem: </p>
+			<p><input type="radio" name="nem" value="ffi"> Férfi</p>
+			<p><input type="radio" name="nem" value="no"> Nő</p>
+			<p><input type="submit"></p>
+		</form>
+	</body>
+</html>
