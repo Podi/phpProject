@@ -1,0 +1,1747 @@
+# Translation of Plugins - Broken Link Checker - Stable (latest release) in Hungarian
+# This file is distributed under the same license as the Plugins - Broken Link Checker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-10 08:12:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: hu\n"
+"Project-Id-Version: Plugins - Broken Link Checker - Stable (latest release)\n"
+
+#: app/admin-pages/cloud-submenu/class-controller.php:68
+msgid "Cloud [new]"
+msgstr "Felhő [új]"
+
+#: app/admin-pages/local-submenu/class-controller.php:76
+#: app/admin-pages/local-submenu/class-view.php:81
+msgid "Local Broken Link Checker"
+msgstr "Helyi Broken Link Checker"
+
+#: legacy/core/core.php:408
+msgid "Broken Links (Old)"
+msgstr "Hibás linkek (Régi)"
+
+#. Author URI of the plugin
+msgid "https://wpmudev.com/"
+msgstr "https://wpmudev.com/"
+
+#: legacy/core/core.php:1232
+msgid "Post Modified Date"
+msgstr "Bejegyzés módosításának dátuma"
+
+#: legacy/core/core.php:1237
+msgid "Disable post modified date change when link is edited"
+msgstr "Meggátolja a bejegyzés módosításának dátumának megváltozását a link szerkesztésekor"
+
+#: legacy/core/core.php:1588
+msgid "Log file clear schedule"
+msgstr "Naplófájl törlésének rendszeressége"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: legacy/core/core.php:1811
+msgid "Enter the keys of acf fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_586a3eaa4091b</code>."
+msgstr "Írjuk be azon acf mezők kulcsait, amelyeket ellenőrizni akarunk (soronként egyet). Ha egy mező HTML kódot tartalmaz, írjuk a neve elé, hogy <code>html:</code>. Például: <code>html:field_586a3eaa4091b</code>"
+
+#: legacy/core/init.php:235 legacy/init.php:252
+msgid "Every 10 minutes"
+msgstr "10 percenként"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/broken-link-checker/"
+msgstr "https://wordpress.org/plugins/broken-link-checker/"
+
+#: legacy/includes/any-post.php:829
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "A rendszer %d bejegyzést törölt."
+msgstr[1] "A rendszer %d bejegyzést törölt."
+
+#: legacy/includes/any-post.php:831
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "A rendszer %d oldalt törölt."
+msgstr[1] "A rendszer %d oldalt törölt."
+
+#: legacy/includes/any-post.php:852
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "A rendszer %d bejegyzést helyezett át a Lomtárba."
+msgstr[1] "A rendszer %d bejegyzést helyezett át a Lomtárba."
+
+#: legacy/includes/any-post.php:854
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "A rendszer %d oldalt helyezett át a Lomtárba."
+msgstr[1] "A rendszer %d oldalt helyezett át a Lomtárba."
+
+#: legacy/includes/containers.php:932 legacy/includes/containers.php:950
+msgid "Container type '%s' not recognized"
+msgstr "A(z) \"%s\" tárolótípust a rendszer nem ismeri fel"
+
+#: legacy/includes/instances.php:118 legacy/includes/instances.php:174
+msgid "Parser '%s' not found."
+msgstr "A rendszer nem találta a(z) \"%s\" elemzőt."
+
+#: legacy/includes/link-query.php:36
+msgid "Broken"
+msgstr "Nem működik"
+
+#: legacy/includes/link-query.php:38
+msgid "No broken links found"
+msgstr "A rendszer nem talált nem működő hivatkozást"
+
+#: legacy/includes/link-query.php:56
+msgid "Redirects"
+msgstr "Átirányítások"
+
+#: legacy/includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "Átirányított hivatkozások"
+
+#: legacy/includes/link-query.php:58
+msgid "No redirects found"
+msgstr "A rendszer nem talált átirányítást"
+
+#: legacy/includes/link-query.php:66
+msgid "Dismissed"
+msgstr "Elvetve"
+
+#: legacy/includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "Elvetett hivatkozások"
+
+#: legacy/includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "A rendszer nem talált elvetett hivatkozásokat"
+
+#: legacy/includes/link-query.php:25
+msgid "All"
+msgstr "Összes"
+
+#: legacy/includes/link-query.php:26
+msgid "Detected Links"
+msgstr "Észlelt hivatkozások"
+
+#: legacy/includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "A rendszer (még) nem talált hivatkozásokat"
+
+#: legacy/includes/link-query.php:82
+msgid "Search Results"
+msgstr "Keresési eredmények"
+
+#: legacy/includes/link-query.php:83 legacy/includes/link-query.php:131
+msgid "No links found for your query"
+msgstr "A rendszer nem talált hivatkozást az Ön lekérdezésére"
+
+#: legacy/includes/links.php:225
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "A bővítmény parancsfájlja a hivatkozás ellenőrzése közben le lett állítva."
+
+#: legacy/includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "A bővítmény nem tudja, hogy hogyan ellenőrizze ezt a hivatkozástípust."
+
+#: legacy/includes/links.php:505
+msgid "Link is valid."
+msgstr "A hivatkozás érvényes."
+
+#: legacy/includes/links.php:503
+msgid "Link is broken."
+msgstr "A hivatkozás nem működik."
+
+#: legacy/includes/links.php:738 legacy/includes/links.php:841
+#: legacy/includes/links.php:875
+msgid "Link is not valid"
+msgstr "A hivatkozás nem érvényes"
+
+#: legacy/includes/links.php:755
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "Az aktuális hivatkozás nem szerkeszthető, mert ezen az oldalon sehol sincs felhasználva."
+
+#: legacy/includes/links.php:781
+msgid "Failed to create a DB entry for the new URL."
+msgstr "Adatbázis-bejegyzés létrehozása nem sikerült az új URL-címre."
+
+#: legacy/includes/links.php:848
+msgid "This link is not a redirect"
+msgstr "Ez a hivatkozás nem átirányítás"
+
+#: legacy/includes/links.php:902 legacy/includes/links.php:939
+msgid "Couldn't delete the link's database record"
+msgstr "A hivatkozás adatbázis-bejegyzése nem törölhető"
+
+#: legacy/includes/links.php:1016
+msgctxt "link status"
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: legacy/includes/links.php:1029 legacy/modules/checkers/http.php:313
+#: legacy/modules/checkers/http.php:317 legacy/modules/extras/mediafire.php:115
+#: legacy/modules/extras/youtube.php:135 legacy/modules/extras/youtube.php:230
+msgid "Unknown Error"
+msgstr "Ismeretlen hiba"
+
+#: legacy/includes/links.php:1052
+msgid "Not checked"
+msgstr "Nincs ellenőrizve"
+
+#: legacy/includes/links.php:1055
+msgid "False positive"
+msgstr "Vakriasztás"
+
+#: legacy/includes/links.php:1058 legacy/modules/extras/rapidshare.php:145
+#: legacy/modules/extras/rapidshare.php:151
+#: legacy/modules/extras/rapidshare.php:178
+#: legacy/modules/extras/youtube.php:141 legacy/modules/extras/youtube.php:217
+msgctxt "link status"
+msgid "OK"
+msgstr "OK"
+
+#: legacy/includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "Szerkesztés nem lett végrehajtva a(z) \"%s\" elemzőben"
+
+#: legacy/includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "A hivatkozásmentesítés nem lett végrehajtva a(z) \"%s\" elemzőben."
+
+#: legacy/includes/utility-class.php:259
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d másodperc"
+msgstr[1] "%d másodperc"
+
+#: legacy/includes/utility-class.php:260
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d másodperce"
+msgstr[1] "%d másodperce"
+
+#: legacy/includes/utility-class.php:263
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d perc"
+msgstr[1] "%d perc"
+
+#: legacy/includes/utility-class.php:264
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d perce"
+msgstr[1] "%d perce"
+
+#: legacy/includes/utility-class.php:267
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d óra"
+msgstr[1] "%d óra"
+
+#: legacy/includes/utility-class.php:268
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d órája"
+msgstr[1] "%d órája"
+
+#: legacy/includes/utility-class.php:271
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d nap"
+msgstr[1] "%d nap"
+
+#: legacy/includes/utility-class.php:272
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d napja"
+msgstr[1] "%d napja"
+
+#: legacy/includes/utility-class.php:275
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d hónap"
+msgstr[1] "%d hónap"
+
+#: legacy/includes/utility-class.php:276
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d hónapja"
+msgstr[1] "%d hónapja"
+
+#: legacy/modules/checkers/http.php:290
+msgid "Server Not Found"
+msgstr "Kiszolgáló nem található"
+
+#: legacy/modules/checkers/http.php:306
+msgid "Connection Failed"
+msgstr "Kapcsolódási hiba"
+
+#: legacy/modules/checkers/http.php:360 legacy/modules/checkers/http.php:449
+msgid "HTTP code : %d"
+msgstr "HTTP-kód: %d"
+
+#: legacy/modules/checkers/http.php:362 legacy/modules/checkers/http.php:451
+msgid "(No response)"
+msgstr "(Nincs válasz)"
+
+#: legacy/modules/checkers/http.php:380
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "Valószínűleg a kapcsolat ideje lejárt vagy a tartomány nem létezik."
+
+#: legacy/modules/checkers/http.php:460
+msgid "Request timed out."
+msgstr "A kérelem ideje lejárt."
+
+#: legacy/modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "Könyvjelző"
+
+#: legacy/modules/containers/blogroll.php:27
+#: legacy/modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "Aktuális könyvjelző szerkesztése"
+
+#: legacy/modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Ön az aktuális \"%s\" hivatkozás törlésére készül.\n"
+"A megszakításhoz kattintson a \"Mégse\", a törléshez az \"OK\" lehetőségre."
+
+#: legacy/modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "A(z) %d könyvjelző frissítése nem sikerült"
+
+#: legacy/modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "A rendszer %d blogroll hivatkozást törölt."
+msgstr[1] "A rendszer %d blogroll hivatkozást törölt."
+
+#: legacy/modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "Végleges törlés"
+
+#: legacy/modules/containers/acf_field.php:234
+#: legacy/modules/containers/custom_field.php:238
+msgid "Edit this post"
+msgstr "Aktuális bejegyzés szerkesztése"
+
+#: legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/custom_field.php:272
+msgid "View \"%s\""
+msgstr "\"%s\" megtekintése"
+
+#: legacy/modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "DailyMotion videó"
+
+#: legacy/modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "Beágyazott DailyMotion videó"
+
+#: legacy/modules/extras/embed-parser-base.php:199
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "A beágyazott videók nem szerkeszthetők a Broken Link Checker alkalmazással. Kérjük, szerkessze meg vagy cserélje le a kérdéses videót kézileg."
+
+#: legacy/modules/extras/mediafire.php:97
+#: legacy/modules/extras/mediafire.php:103
+#: legacy/modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "Nem található"
+
+#: legacy/modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "GoogleVideo videó"
+
+#: legacy/modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "Beágyazott GoogleVideo videó"
+
+#: legacy/modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "RapidShare API használata"
+
+#: legacy/modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "Az RS kiszolgálót nem lehet elérni"
+
+#: legacy/modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "Letiltott fájl"
+
+#: legacy/modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "Zárolt fájl"
+
+#: legacy/modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare: %s"
+
+#: legacy/modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "RapidShare API hiba: %s"
+
+#: legacy/modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Vimeo videó"
+
+#: legacy/modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "Beágyazott Vimeo videó"
+
+#: legacy/modules/extras/youtube-embed.php:24
+#: legacy/modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "YouTube videó"
+
+#: legacy/modules/extras/youtube-embed.php:25
+#: legacy/modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "Beágyazott YouTube videó"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "YouTube lejátszási lista"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "Beágyazott YouTube lejátszási lista"
+
+#: legacy/modules/extras/youtube.php:151 legacy/modules/extras/youtube.php:154
+msgid "Video Not Found"
+msgstr "Videó nem található"
+
+#: legacy/modules/extras/youtube.php:140
+msgid "Video OK"
+msgstr "Videó OK"
+
+#: legacy/modules/extras/youtube.php:207
+msgid "Video Restricted"
+msgstr "Videó korlátozva"
+
+#: legacy/modules/extras/youtube.php:261
+msgid "Unknown YouTube API response received."
+msgstr "Ismeretlen YouTube API válasz érkezett."
+
+#: legacy/modules/extras/youtube.php:183
+msgid "Playlist Restricted"
+msgstr "Lejátszási lista korlátozva"
+
+#: legacy/modules/extras/youtube.php:216
+msgid "Playlist OK"
+msgstr "Lejátszási lista OK"
+
+#: legacy/modules/extras/youtube.php:190
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "Az aktuális lejátszási lista nem tartalmaz bejegyzést, vagy minden bejegyzése törölve lett."
+
+#: legacy/modules/parsers/image.php:193
+msgid "Image"
+msgstr "Kép"
+
+#: legacy/modules/parsers/acf_field.php:120
+#: legacy/modules/parsers/metadata.php:141
+msgid "Custom field"
+msgstr "Egyedi mező"
+
+#: legacy/includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "Alap HTTP"
+
+#: legacy/modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "Engedély megtagadva"
+
+#: legacy/includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "Figyelmeztetések"
+
+#: legacy/includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "Oldalak"
+
+#: legacy/includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "Bejegyzések"
+
+#: legacy/includes/link-query.php:48
+msgid "No warnings found"
+msgstr "Nem találhatóak figyelmeztetések"
+
+#: legacy/includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "Egyéni mezők"
+
+#: legacy/includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "Blogtárlat elemek"
+
+#: legacy/modules/containers/comment.php:385
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "A rendszer %d hozzászólást helyezett át a Lomtárba."
+msgstr[1] "A rendszer %d hozzászólást helyezett át a Lomtárba."
+
+#: legacy/modules/containers/comment.php:366
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "A rendszer %d hozzászólást törölt."
+msgstr[1] "A rendszer %d hozzászólást törölt."
+
+#: legacy/modules/containers/comment.php:189
+msgid "Comment"
+msgstr "Hozzászólás"
+
+#: legacy/modules/containers/comment.php:172
+msgid "View comment"
+msgstr "Hozzászólás megtekintése"
+
+#: legacy/modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "Aktuális hozzászólás lomtárba helyezése"
+
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "Hozzászólás szerkesztése"
+
+#: legacy/modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "A(z) %d hozzászólás lomtárba helyezése nem lehetséges"
+
+#: legacy/modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "A(z) %d hozzászólás törlése nem sikerült"
+
+#: legacy/modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "A(z) %d hozzászólás frissítése nem sikerült"
+
+#: legacy/includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "Hozzászólások"
+
+#: legacy/includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "HTML hivatkozások"
+
+#: legacy/includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "HTML képek"
+
+#: legacy/includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "YouTube API"
+
+#: legacy/includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "Okos YouTube httpv:// URL-ek"
+
+#: legacy/includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "RapidShare API"
+
+#: legacy/includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "Plaintext URL-ek"
+
+#: legacy/includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "MediaFire API"
+
+#: legacy/includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "Beágyazott YouTube videók (régi beágyazó kód)"
+
+#: legacy/includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "Beágyazott YouTube videók"
+
+#: legacy/includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "Beágyazott YouTube lejátszási listák (régi beágyazó kód)"
+
+#: legacy/includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "Beágyazott Vimeo videók"
+
+#: legacy/includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "Beágyazott GoogleVideo videók"
+
+#: legacy/includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "Beágyazott DailyMotion videók"
+
+#: legacy/modules/extras/youtube.php:191
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "Üres lejátszási lista"
+
+#: legacy/modules/extras/youtube.php:173 legacy/modules/extras/youtube.php:176
+msgid "Playlist Not Found"
+msgstr "Lejátszási lista nem található"
+
+#: legacy/modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "Lomtárba helyezés"
+
+#: legacy/core/core.php:245 legacy/includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "Betöltés folyamatban..."
+
+#: legacy/core/core.php:269 legacy/includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[ Hálózati hiba ]"
+
+#: legacy/core/core.php:313
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "Vezérlő automatikus kibontása nem működő hivatkozás észlelése esetén"
+
+#: app/action-links/plugin/class-controller.php:99
+#: app/admin-pages/local-submenu/class-view.php:66
+#: app/emails/scan-report/class-controller.php:80
+#: app/emails/scan-report/class-view.php:164 legacy/core/core.php:431
+#: legacy/core/core.php:432 legacy/includes/link-query.php:37
+msgid "Broken Links"
+msgstr "Nem működő hivatkozások"
+
+#: app/admin-pages/local-submenu/class-view.php:67 legacy/core/core.php:514
+msgid "Settings"
+msgstr "Beállítások"
+
+#: legacy/core/core.php:846
+msgid "Settings saved."
+msgstr "Beállítások elmentve."
+
+#: legacy/core/core.php:853
+msgid "Complete site recheck started."
+msgstr "Teljes oldal-újraellenőrzés elindítva."
+
+#: legacy/core/core.php:876
+msgid "General"
+msgstr "Általános"
+
+#: legacy/core/core.php:877
+msgid "Look For Links In"
+msgstr "Hivatkozások keresési helye"
+
+#: legacy/core/core.php:878
+msgid "Which Links To Check"
+msgstr "Ellenőrzendő hivatkozások"
+
+#: legacy/core/core.php:879
+msgid "Protocols & APIs"
+msgstr "Protokollok és API-k"
+
+#: legacy/core/core.php:880
+msgid "Advanced"
+msgstr "Haladó"
+
+#: app/emails/scan-report/class-view.php:167 legacy/core/core.php:935
+#: legacy/includes/admin/table-printer.php:215
+msgid "Status"
+msgstr "Állapot"
+
+#: legacy/core/core.php:938 legacy/includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "Hibakeresési adatok megjelenítése"
+
+#: legacy/core/core.php:966
+msgid "Check each link"
+msgstr "Minden egyes hivatkozás ellenőrzése"
+
+#: legacy/core/core.php:971
+msgid "Every %s hours"
+msgstr "%s óránként"
+
+#: legacy/core/core.php:980
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "A meglévő hivatkozások ilyen gyakran lesznek ellenőrizve. Az új hivatkozásokat általában azonnal ellenőrzi a rendszer."
+
+#: legacy/core/core.php:987
+msgid "E-mail notifications"
+msgstr "E-mail értesítések"
+
+#: legacy/core/core.php:999
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "E-mail értesítéseket kérek magamnak az újonnan észlelt nem működő hivatkozásokról"
+
+#: legacy/core/core.php:1013
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "E-mail értesítéseket kérek a szerzőknek a bejegyzéseikben újonnan észlelt nem működő hivatkozásokról"
+
+#: legacy/core/core.php:1020
+msgid "Notification e-mail address"
+msgstr "Értesítési e-mail cím"
+
+#: legacy/core/core.php:1032
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "Hagyja üresen, ha a Beállítások &rarr; Általános menüben megadott e-mail címet szeretné használni."
+
+#: legacy/core/core.php:1064
+msgid "Link tweaks"
+msgstr "Hivatkozás-finomhangolás"
+
+#: legacy/core/core.php:1076
+msgid "Apply custom formatting to broken links"
+msgstr "Egyedi formázás alkalmazása a nem működő hivatkozásokra"
+
+#: legacy/core/core.php:1081 legacy/core/core.php:1126
+msgid "Edit CSS"
+msgstr "CSS szerkesztése"
+
+#: legacy/core/core.php:1103
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "Például: Lorem ipsum <a %s>nem működő hivatkozás</a>, dolor sit amet."
+
+#: legacy/core/core.php:1106 legacy/core/core.php:1152
+msgid "Click \"Save Changes\" to update example output."
+msgstr "A példakimenet frissítéséhez kattintson a \"Módosítások mentése\" lehetőségre."
+
+#: legacy/core/core.php:1121
+msgid "Apply custom formatting to removed links"
+msgstr "Egyedi formázás alkalmazása az eltávolított hivatkozásokra"
+
+#: legacy/core/core.php:1149
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "Például: Lorem ipsum <span %s>eltávolított hivatkozás</span>, dolor sit amet."
+
+#: legacy/core/core.php:1168
+msgid "Stop search engines from following broken links"
+msgstr "Keresőmotorok általi követés leállítása nem működő hivatkozások esetén"
+
+#: legacy/core/core.php:1252
+msgid "Look for links in"
+msgstr "Hivatkozások keresési helye"
+
+#: legacy/core/core.php:1269
+msgid "Post statuses"
+msgstr "Bejegyzésállapotok"
+
+#: legacy/core/core.php:1303
+msgid "Link types"
+msgstr "Hivatkozástípusok"
+
+#: legacy/core/core.php:1309
+msgid "Error : All link parsers missing!"
+msgstr "Hiba: Minden hivatkozáselemző hiányzik!"
+
+#: legacy/core/core.php:1316
+msgid "Exclusion list"
+msgstr "Kivétellista"
+
+#: legacy/core/core.php:1317
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "Hivatkozások ellenőrzésének mellőzése, ahol az URL a következő szavak (soronként egyet írjon) bármelyikét tartalmazza:"
+
+#: legacy/core/core.php:1337
+msgid "Check links using"
+msgstr "Hivatkozások ellenőrzése a következő használatával:"
+
+#: legacy/core/core.php:1357 legacy/includes/links.php:1033
+msgid "Timeout"
+msgstr "Időtúllépés"
+
+#: legacy/core/core.php:1363 legacy/core/core.php:1460
+#: legacy/core/core.php:4029
+msgid "%s seconds"
+msgstr "%s másodperc"
+
+#: legacy/core/core.php:1372
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "Az ennél hosszabb idő alatt betöltő hivatkozások nem működőként lesznek jelölve."
+
+#: legacy/core/core.php:1379
+msgid "Link monitor"
+msgstr "Hivatkozásfelügyelő"
+
+#: legacy/core/core.php:1392
+msgid "Run continuously while the Dashboard is open"
+msgstr "Fut, ha a kezelőpanel meg van nyitva"
+
+#: legacy/core/core.php:1405
+msgid "Run hourly in the background"
+msgstr "Óránként fut a háttérben"
+
+#: legacy/core/core.php:1454
+msgid "Max. execution time"
+msgstr "Max. végrehajtási idő"
+
+#: legacy/core/core.php:1472
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr "A bővítmény rendszeres időközönként háttérben futó feladatot indít az Ön bejegyzéseiben található hivatkozások elemzésére, ellenőrzi a talált URL címeket, és további időigényes feladatokat hajt végre. Itt beállíthatja, hogy hivatkozásonként legfeljebb mennyi ideig fusson a hivatkozásfelügyelő, mielőtt le lenne állítva."
+
+#: legacy/core/core.php:1481
+msgid "Server load limit"
+msgstr "Kiszolgálóterhelési korlát"
+
+#: legacy/core/core.php:1496
+msgid "Current load : %s"
+msgstr "Jelenlegi terhelés: %s"
+
+#: legacy/core/core.php:1501
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr "A hivatkozásellenőrzés fel lesz függesztve, ha az átlagos <a href=\"%s\">kiszolgálóterhelés</a> efölé az érték fölé nő. A terheléskorlátozás funkció letiltásához hagyja üresen ezt a mezőt."
+
+#: legacy/core/core.php:1510
+msgid "Not available"
+msgstr "Nem áll rendelkezésre"
+
+#: legacy/core/core.php:1512
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "A terheléskorlátozás csak olyan Linuxhoz hasonló rendszereknél működik, ahol a <code>proc/loadavg</code> megtalálható és hozzáférhető."
+
+#: legacy/core/core.php:1616
+msgid "Forced recheck"
+msgstr "Kényszerített újraellenőrzés"
+
+#: legacy/core/core.php:1619
+msgid "Re-check all pages"
+msgstr "Minden oldal újraellenőrzése"
+
+#: legacy/core/core.php:1624
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "Az \"atombomba megoldás\". Erre a gombra kattintva a bővítmény kiüríti hivatkozás-adatbázisát, és a teljes oldalt nulláról újraellenőrzi."
+
+#: legacy/core/core.php:1637
+msgid "Save Changes"
+msgstr "Módosítások mentése"
+
+#: legacy/core/core.php:1688
+msgid "Configure"
+msgstr "Beállítás"
+
+#: legacy/core/core.php:1950 legacy/core/core.php:2040
+#: legacy/core/core.php:2072
+msgid "Database error : %s"
+msgstr "Adatbázishiba : %s"
+
+#: legacy/core/core.php:2021
+msgid "You must enter a filter name!"
+msgstr "Be kell írnia egy szűrőnevet!"
+
+#: legacy/core/core.php:2025
+msgid "Invalid search query."
+msgstr "Érvénytelen keresési lekérdezés."
+
+#: legacy/core/core.php:2035
+msgid "Filter \"%s\" created"
+msgstr "\"%s\" szűrő létrehozva"
+
+#: legacy/core/core.php:2062
+msgid "Filter ID not specified."
+msgstr "Szűrőazonosító nincs meghatározva."
+
+#: legacy/core/core.php:2069
+msgid "Filter deleted"
+msgstr "Szűrő törölve"
+
+#: legacy/core/core.php:2119
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "%d átirányítás közvetlen hivatkozásra lett cserélve"
+msgstr[1] "%d átirányítás közvetlen hivatkozásra lett cserélve"
+
+#: legacy/core/core.php:2130
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "%d átirányítás javítása nem sikerült"
+msgstr[1] "%d átirányítás javítása nem sikerült"
+
+#: legacy/core/core.php:2141
+msgid "None of the selected links are redirects!"
+msgstr "A kiválasztott hivatkozások egyike sem átirányítás!"
+
+#: legacy/core/core.php:2228
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "%d hivatkozás frissítve lett."
+msgstr[1] "%d hivatkozás frissítve lett."
+
+#: legacy/core/core.php:2239
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "%d hivatkozás frissítése nem sikerült."
+msgstr[1] "%d hivatkozás frissítése nem sikerült."
+
+#: legacy/core/core.php:2332
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "%d hivatkozás el lett távolítva"
+msgstr[1] "%d hivatkozás el lett távolítva"
+
+#: legacy/core/core.php:2343
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "%d hivatkozás eltávolítása nem sikerült"
+msgstr[1] "%d hivatkozás eltávolítása nem sikerült"
+
+#: legacy/core/core.php:2458
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "%d elem ki lett hagyva, mert nem helyezhető át a Lomtárba. A törlést kézileg kell elvégezni."
+msgstr[1] "%d elem ki lett hagyva, mert nem helyezhetők át a Lomtárba. A törlést kézileg kell elvégezni."
+
+#: legacy/core/core.php:2480
+msgid "Didn't find anything to delete!"
+msgstr "Nem található törlendő elem."
+
+#: legacy/core/core.php:2519
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "%d hivatkozás újraellenőrzése van beütemezve"
+msgstr[1] "%d hivatkozás újraellenőrzése van beütemezve"
+
+#: legacy/core/core.php:2569 legacy/core/core.php:3444
+msgid "This link was manually marked as working by the user."
+msgstr "Ezt a hivatkozást a felhasználó kézileg működőnek jelölte."
+
+#: legacy/core/core.php:2577 legacy/core/core.php:2641
+msgid "Couldn't modify link %d"
+msgstr "%d hivatkozás nem módosítható"
+
+#: legacy/core/core.php:2588
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "%d hivatkozás működőnek lett jelölve"
+msgstr[1] "%d hivatkozás működőnek lett jelölve"
+
+#: legacy/core/core.php:2758
+msgid "Table columns"
+msgstr "Táblázatoszlopok"
+
+#: legacy/core/core.php:2785 legacy/includes/admin/table-printer.php:175
+msgid "Apply"
+msgstr "Alkalmazás"
+
+#: legacy/core/core.php:2789
+msgid "Misc"
+msgstr "Egyéb"
+
+#: legacy/core/core.php:2833 legacy/core/core.php:3428
+#: legacy/core/core.php:3475 legacy/core/core.php:3514
+#: legacy/core/core.php:3640 legacy/core/core.php:3700
+#: legacy/core/core.php:3780
+msgid "You're not allowed to do that!"
+msgstr "Erre nem rendelkezik jogosultsággal!"
+
+#: legacy/core/core.php:3296
+msgid "View broken links"
+msgstr "Nem működő hivatkozások megjelenítése"
+
+#: legacy/core/core.php:3297
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "A rendszer %d nem működő hivatkozást talált"
+msgstr[1] "A rendszer %d nem működő hivatkozást talált"
+
+#: legacy/core/core.php:3303
+msgid "No broken links found."
+msgstr "A rendszer nem talált nem működő hivatkozást."
+
+#: legacy/core/core.php:3310
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "%d URL cím a munkasorban"
+msgstr[1] "%d URL cím a munkasorban"
+
+#: legacy/core/core.php:3314
+msgid "No URLs in the work queue."
+msgstr "Nincs URL cím a munkasorban."
+
+#: legacy/core/core.php:3343
+msgid "Searching your blog for links..."
+msgstr "Hivatkozáskeresés az Ön blogjában folyamatban..."
+
+#: legacy/core/core.php:3345
+msgid "No links detected."
+msgstr "A rendszer nem talált hivatkozást."
+
+#: legacy/core/core.php:3371
+msgctxt "current load"
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: legacy/core/core.php:3436 legacy/core/core.php:3483
+#: legacy/core/core.php:3537 legacy/core/core.php:3654
+#: legacy/core/core.php:3723 legacy/core/core.php:3803
+msgid "Oops, I can't find the link %d"
+msgstr "Ajaj, a rendszer nem találja a következő hivatkozást: %d."
+
+#: legacy/core/core.php:3456 legacy/core/core.php:3497
+msgid "Oops, couldn't modify the link!"
+msgstr "Ajaj, a hivatkozás nem módosítható!"
+
+#: legacy/core/core.php:3459 legacy/core/core.php:3500
+#: legacy/core/core.php:3688 legacy/core/core.php:3710
+#: legacy/core/core.php:3790
+msgid "Error : link_id not specified"
+msgstr "Hiba: link_id nincs meghatározva"
+
+#: legacy/core/core.php:3550 legacy/core/core.php:3564
+msgid "Oops, the new URL is invalid!"
+msgstr "Ajaj, az új URL-cím érvénytelen!"
+
+#: legacy/core/core.php:3667
+msgid "An unexpected error occured!"
+msgstr "Váratlan hiba történt!"
+
+#: legacy/core/core.php:3524
+msgid "Error : link_id or new_url not specified"
+msgstr "Hiba: link_id vagy new_url nincs meghatározva"
+
+#: legacy/core/core.php:3839
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "Nincs elegendő jogosultsága, hogy ehhez az információhoz hozzáférjen!"
+
+#: legacy/core/core.php:3852
+msgid "Error : link ID not specified"
+msgstr "Hiba: hivatkozásazonosító nincs megadva"
+
+#: legacy/core/core.php:3866
+msgid "Failed to load link details (%s)"
+msgstr "Hivatkozásrészletek (%s) betöltése nem sikerült"
+
+#. Plugin Name of the plugin
+#: app/admin-pages/cloud-page/class-controller.php:85
+#: app/admin-pages/cloud-submenu/class-controller.php:67
+#: app/emails/recipient-activation/class-controller.php:88
+#: app/emails/scan-report/class-controller.php:101 legacy/core/core.php:3920
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: legacy/core/core.php:3940
+msgid "PHP version"
+msgstr "PHP verzió"
+
+#: legacy/core/core.php:3946
+msgid "MySQL version"
+msgstr "MySQL verzió"
+
+#: legacy/core/core.php:3959
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "Ön a CURL régi verziójával rendelkezik. Előfordulhat, hogy az átirányításészlelés nem működik megfelelően."
+
+#: legacy/core/core.php:3970 legacy/core/core.php:3986
+#: legacy/core/core.php:3991
+msgid "Not installed"
+msgstr "Nincs telepítve"
+
+#: legacy/core/core.php:3973
+msgid "CURL version"
+msgstr "CURL verzió"
+
+#: legacy/core/core.php:3979
+msgid "Installed"
+msgstr "Telepítve"
+
+#: legacy/core/core.php:3992
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "A bővítmény működéséhez a CURL vagy Snoopy programnak telepítve kell lennie."
+
+#: legacy/core/core.php:4002
+msgid "On"
+msgstr "Be"
+
+#: legacy/core/core.php:4003
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "Ha a safe_mode be van kapcsolva, a rendszer az átirányításokat nem működő hivatkozásként értelmezi."
+
+#: legacy/core/core.php:4008 legacy/core/core.php:4022
+msgid "Off"
+msgstr "Ki"
+
+#: legacy/core/core.php:4016
+msgid "On ( %s )"
+msgstr "Be ( %s )"
+
+#: legacy/core/core.php:4017
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "Ha az open_basedir be van kapcsolva, a rendszer az átirányításokat nem működő hivatkozásként értelmezi."
+
+#: legacy/core/core.php:4054
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "Ha ez az érték több újratöltés után is nulla, valószínűleg hiba történt."
+
+#: legacy/core/core.php:4189 legacy/core/core.php:4314
+msgid "[%s] Broken links detected"
+msgstr "[%s] A rendszer nem működő hivatkozást talált"
+
+#: legacy/core/core.php:4194
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "A Broken Link Checker %d új nem működő hivatkozást észlelt az Ön oldalán."
+msgstr[1] "A Broken Link Checker %d új nem működő hivatkozást észlelt az Ön oldalán."
+
+#: legacy/core/core.php:4226
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "Íme az első %d nem működő hivatkozást tartalmazó lista:"
+msgstr[1] "Íme az első %d nem működő hivatkozást tartalmazó lista:"
+
+#: legacy/core/core.php:4235
+msgid "Here's a list of the new broken links: "
+msgstr "Íme az új nem működő hivatkozások listája: "
+
+#: legacy/core/core.php:4245
+msgid "Link text : %s"
+msgstr "Hivatkozásszöveg: %s"
+
+#: legacy/core/core.php:4247
+msgid "Source : %s"
+msgstr "Forrás: %s"
+
+#: legacy/core/core.php:4261
+msgid "You can see all broken links here:"
+msgstr "Az összes nem működő hivatkozást itt tekintheti meg:"
+
+#: legacy/core/core.php:4319
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "A Broken Link Checker %d új nem működő hivatkozást észlelt az Ön bejegyzésében."
+msgstr[1] "A Broken Link Checker %d új nem működő hivatkozást észlelt az Ön bejegyzésében."
+
+#: legacy/core/init.php:242 legacy/init.php:259
+msgid "Once Weekly"
+msgstr "Heti egyszer"
+
+#: legacy/core/init.php:248 legacy/init.php:265
+msgid "Twice a Month"
+msgstr "Havonta kétszer"
+
+#: legacy/core/init.php:321 legacy/init.php:354
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "A Broken Link Checker telepítése nem sikerült. Próbálja meg inaktiválni, majd újraaktiválni a bővítményt."
+
+#: legacy/includes/admin/db-upgrade.php:100
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "A régi adatbázis-táblázatok törlése nem sikerült. Adatbázishiba: %s"
+
+#: legacy/includes/admin/links-page-js.php:64
+#: legacy/includes/admin/links-page-js.php:659
+msgid "Wait..."
+msgstr "Várjon..."
+
+#: legacy/core/core.php:552 legacy/includes/admin/links-page-js.php:111
+#: legacy/includes/admin/table-printer.php:719
+msgid "Not broken"
+msgstr "Működik"
+
+#: legacy/includes/admin/links-page-js.php:528
+msgid "%d instances of the link were successfully modified."
+msgstr "A hivatkozás %d példánya sikeresen módosítva lett."
+
+#: legacy/includes/admin/links-page-js.php:534
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "%d példány azonban nem volt szerkeszthető, és továbbra is a régi URL-címre mutat."
+
+#: legacy/includes/admin/links-page-js.php:540
+msgid "The link could not be modified."
+msgstr "A hivatkozás nem módosítható."
+
+#: legacy/includes/admin/links-page-js.php:708
+msgid "The following error(s) occured :"
+msgstr "A következő hiba történt:"
+
+#: legacy/includes/admin/links-page-js.php:694
+msgid "%d instances of the link were successfully unlinked."
+msgstr "A hivatkozás %d példánya sikeresen hivatkozásmentesítve lett."
+
+#: legacy/includes/admin/links-page-js.php:700
+msgid "However, %d instances couldn't be removed."
+msgstr "%d példány azonban nem volt eltávolítható."
+
+#: legacy/includes/admin/links-page-js.php:705
+msgid "The plugin failed to remove the link."
+msgstr "A bővítménynek nem sikerült eltávolítania a hivatkozást."
+
+#: legacy/core/core.php:551 legacy/includes/admin/links-page-js.php:716
+#: legacy/includes/admin/table-printer.php:297
+#: legacy/includes/admin/table-printer.php:713
+msgid "Unlink"
+msgstr "Hivatkozásmentesítés"
+
+#: legacy/includes/admin/links-page-js.php:756
+msgid "Enter a name for the new custom filter"
+msgstr "Írjon be nevet az új egyedi szűrőnek"
+
+#: legacy/includes/admin/links-page-js.php:768
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Ön az aktuális szűrő törlésére készül.\n"
+"A megszakításhoz kattintson a \"Mégse\", a törléshez az \"OK\" lehetőségre."
+
+#: legacy/includes/admin/links-page-js.php:792
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Biztos, hogy törölni szeretne minden bejegyzést, könyvjelzőt vagy egyéb olyan elemet, mely a kiválasztott hivatkozások bármelyikét tartalmazza? Ez a művelet nem visszavonható.\n"
+"A megszakításhoz kattintson a \"Mégse\", a törléshez az \"OK\" lehetőségre."
+
+#: legacy/includes/admin/links-page-js.php:806
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"Biztos, hogy törölni szeretné a kiválasztott hivatkozásokat? Ez a művelet nem visszavonható.\n"
+"A megszakításhoz kattintson a \"Mégse\", az eltávolításhoz az \"OK\" lehetőségre."
+
+#: legacy/includes/admin/links-page-js.php:936
+msgid "Enter a search string first."
+msgstr "Először írja be a keresett karakterláncot."
+
+#: legacy/includes/admin/links-page-js.php:943
+msgid "Select one or more links to edit."
+msgstr "Válasszon ki egy vagy több szerkesztendő hivatkozást."
+
+#: legacy/includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "Hibakeresési adatok elrejtése"
+
+#: legacy/includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "Aktuális keresés elmentése szűrőként"
+
+#: legacy/includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "Aktuális szűrő törlése"
+
+#: legacy/includes/admin/search-form.php:32 legacy/includes/link-query.php:81
+msgid "Search"
+msgstr "Keresés"
+
+#: legacy/includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "Hivatkozásszöveg"
+
+#: legacy/includes/admin/search-form.php:45
+#: legacy/includes/admin/table-printer.php:220
+msgid "URL"
+msgstr "URL-cím"
+
+#: legacy/includes/admin/search-form.php:48
+#: legacy/includes/admin/table-printer.php:559
+msgid "HTTP code"
+msgstr "HTTP-kód"
+
+#: legacy/includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "Hivatkozásállapot"
+
+#: legacy/includes/admin/search-form.php:68
+#: legacy/includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "Hivatkozástípus"
+
+#: legacy/includes/admin/search-form.php:70
+msgid "Any"
+msgstr "Bármilyen"
+
+#: legacy/includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "Hivatkozások használati helye"
+
+#: legacy/includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "Hivatkozások keresése"
+
+#: legacy/includes/admin/search-form.php:113
+#: legacy/includes/admin/table-printer.php:375
+#: legacy/includes/admin/table-printer.php:779
+#: legacy/includes/admin/table-printer.php:904
+msgid "Cancel"
+msgstr "Mégse"
+
+#: legacy/includes/admin/table-printer.php:192
+msgid "Compact View"
+msgstr "Kis méretű nézet"
+
+#: legacy/includes/admin/table-printer.php:197
+msgid "Detailed View"
+msgstr "Részletes nézet"
+
+#: legacy/includes/admin/table-printer.php:227
+msgid "Source"
+msgstr "Forrás"
+
+#: legacy/includes/admin/table-printer.php:233
+msgid "Link Text"
+msgstr "Hivatkozásszöveg"
+
+#: legacy/includes/admin/table-printer.php:240
+msgid "Redirect URL"
+msgstr "Átirányítás URL-címe"
+
+#: legacy/core/core.php:550 legacy/includes/admin/table-printer.php:292
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit URL"
+msgstr "URL-cím szerkesztése"
+
+#: legacy/core/core.php:554 legacy/includes/admin/table-printer.php:293
+#: legacy/includes/admin/table-printer.php:739
+msgid "Recheck"
+msgstr "Újraellenőrzés"
+
+#: legacy/includes/admin/table-printer.php:294
+msgid "Fix redirects"
+msgstr "Átirányítások javítása"
+
+#: legacy/includes/admin/table-printer.php:295
+msgid "Mark as not broken"
+msgstr "Működőnek jelölés"
+
+#: legacy/includes/admin/table-printer.php:300
+msgid "Move sources to Trash"
+msgstr "Források Lomtárba helyezése"
+
+#: legacy/includes/admin/table-printer.php:302
+msgid "Delete sources"
+msgstr "Források törlése"
+
+#: legacy/includes/admin/table-printer.php:318
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: legacy/includes/admin/table-printer.php:319
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: legacy/includes/admin/table-printer.php:353
+msgid "Find"
+msgstr "Keresés"
+
+#: legacy/includes/admin/table-printer.php:357
+msgid "Replace with"
+msgstr "Csere erre"
+
+#: legacy/includes/admin/table-printer.php:365
+msgid "Case sensitive"
+msgstr "Kis- és nagybetűk megkülönböztetése"
+
+#: legacy/includes/admin/table-printer.php:369
+msgid "Regular expression"
+msgstr "Reguláris kifejezés"
+
+#: legacy/includes/admin/table-printer.php:378
+#: legacy/includes/admin/table-printer.php:905
+msgid "Update"
+msgstr "Frissítés"
+
+#: legacy/includes/admin/table-printer.php:536
+msgid "Post published on"
+msgstr "Bejegyzés közzétételének dátuma:"
+
+#: legacy/includes/admin/table-printer.php:543
+msgid "Link last checked"
+msgstr "Hivatkozás utolsó ellenőrzésének ideje"
+
+#: legacy/core/core.php:1594 legacy/includes/admin/table-printer.php:548
+msgid "Never"
+msgstr "Soha"
+
+#: legacy/includes/admin/table-printer.php:566
+msgid "Response time"
+msgstr "Válaszidő"
+
+#: legacy/includes/admin/table-printer.php:569
+msgid "%2.3f seconds"
+msgstr "%2.3f másodperc"
+
+#: legacy/includes/admin/table-printer.php:573
+msgid "Final URL"
+msgstr "Végső URL-cím"
+
+#: legacy/includes/admin/table-printer.php:580
+msgid "Redirect count"
+msgstr "Átirányítás száma"
+
+#: legacy/includes/admin/table-printer.php:587
+msgid "Instance count"
+msgstr "Példány száma"
+
+#: legacy/includes/admin/table-printer.php:598
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "Ez a hivatkozás %d alkalommal volt hibás."
+msgstr[1] "Ez a hivatkozás %d alkalommal volt hibás."
+
+#: legacy/includes/admin/table-printer.php:606
+msgid "This link has been broken for %s."
+msgstr "Ez a hivatkozás %s ideje nem működik."
+
+#: legacy/includes/admin/table-printer.php:617
+msgid "Log"
+msgstr "Napló"
+
+#: legacy/includes/admin/table-printer.php:644
+#: legacy/includes/admin/table-printer.php:688
+msgid "Show more info about this link"
+msgstr "További részletek mutatása az aktuális hivatkozásról"
+
+#: legacy/includes/admin/table-printer.php:677
+msgid "Broken for"
+msgstr "Nem működik ennyi ideje:"
+
+#: legacy/includes/admin/table-printer.php:712
+msgid "Remove this link from all posts"
+msgstr "Aktuális hivatkozás eltávolítása az összes bejegyzésből"
+
+#: legacy/includes/admin/table-printer.php:718
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "Aktuális hivatkozás eltávolítása a nem működő hivatkozások listájáról, és megjelölése érvényesként"
+
+#: legacy/includes/admin/table-printer.php:726
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "Aktuális hivatkozás elrejtése és újbóli jelentésének szüneteltetése annak állapotváltozásáig"
+
+#: app/admin-notices/multisite/class-view.php:64 legacy/core/core.php:553
+#: legacy/includes/admin/table-printer.php:296
+#: legacy/includes/admin/table-printer.php:727
+msgid "Dismiss"
+msgstr "Elvetés"
+
+#: legacy/includes/admin/table-printer.php:732
+msgid "Undismiss this link"
+msgstr "Aktuális hivatkozás elvetésének megszüntetése"
+
+#: legacy/includes/admin/table-printer.php:733
+msgid "Undismiss"
+msgstr "Elvetés megszüntetése"
+
+#: legacy/includes/admin/table-printer.php:780
+msgid "Update URL"
+msgstr "URL-cím frissítése"
+
+#: legacy/includes/admin/table-printer.php:807
+msgid "[An orphaned link! This is a bug.]"
+msgstr "[Árva hivatkozás! Ez egy hiba.]"
+
+#: legacy/includes/any-post.php:486 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/blogroll.php:46
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: legacy/includes/any-post.php:494 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:258
+msgid "Move this item to the Trash"
+msgstr "Aktuális elem Lomtárba helyezése"
+
+#: legacy/includes/any-post.php:496 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:260
+msgid "Trash"
+msgstr "Lomtár"
+
+#: legacy/includes/any-post.php:501 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/custom_field.php:265
+msgid "Delete this item permanently"
+msgstr "Aktuális elem végleges törlése"
+
+#: legacy/includes/any-post.php:503 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/blogroll.php:47
+#: legacy/modules/containers/custom_field.php:267
+msgid "Delete"
+msgstr "Törlés"
+
+#: legacy/includes/any-post.php:516
+msgid "Preview &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; megjelenítése"
+
+#: legacy/includes/any-post.php:517
+msgid "Preview"
+msgstr "Megjelenítés"
+
+#: legacy/includes/any-post.php:524
+msgid "View &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; megtekintése"
+
+#: legacy/includes/any-post.php:525 legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/comment.php:172
+#: legacy/modules/containers/custom_field.php:272
+msgid "View"
+msgstr "Megtekintés"
+
+#: legacy/includes/any-post.php:544 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit this item"
+msgstr "Aktuális elem szerkesztése"
+
+#: legacy/includes/any-post.php:608 legacy/modules/containers/blogroll.php:83
+#: legacy/modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "Nincs mit frissíteni"
+
+#: legacy/includes/any-post.php:622
+msgid "Updating post %d failed"
+msgstr "A(z) %d bejegyzés frissítése nem sikerült"
+
+#: legacy/includes/admin/table-printer.php:689
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "Részletek"
+
+#: legacy/includes/admin/table-printer.php:662
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "Ellenőrizve"
+
+#: legacy/includes/admin/links-page-js.php:543
+msgid "The following error(s) occurred :"
+msgstr "A következő hibák léptek fel:"
+
+#: legacy/includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "Nem elérhető javaslat."
+
+#: legacy/includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "Keresés..."
+
+#: legacy/includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(Nincs)"
+
+#: legacy/core/core.php:3584
+msgid "An unexpected error occurred!"
+msgstr "Egy váratlan hiba következett be!"
+
+#: legacy/core/core.php:3320
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d egyedi URL"
+msgstr[1] "%d egyedi URL"
+
+#: legacy/core/core.php:1562
+msgctxt "log file location"
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: legacy/core/core.php:1578
+msgctxt "log file location"
+msgid "Custom"
+msgstr "Egyéni"
+
+#: legacy/core/core.php:1553
+msgid "Log file location"
+msgstr "Naplófájl helye"
+
+#: legacy/core/core.php:1546
+msgid "Enable logging"
+msgstr "Naplózás bekapcsolása"
+
+#: legacy/core/core.php:1540
+msgid "Logging"
+msgstr "Naplózás"
+
+#: legacy/core/core.php:1197
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "Figyelmeztetések"
+
+#: legacy/core/core.php:1185
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "Javaslatok"
+
+#: legacy/core/core.php:555 legacy/includes/admin/table-printer.php:747
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "Átirányítás javítása"
+
+#: legacy/core/core.php:1191
+msgid "Suggest alternatives to broken links"
+msgstr "Ajánljon alternatívákat a nem működő hivatkozásokhoz"
+
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit this link"
+msgstr "Hivatkozás módosítása"
+
+#: legacy/includes/admin/links-page-js.php:615
+msgid "Error: Link URL must not be empty."
+msgstr "Hiba: A hivatkozás URL-je nem lehet üres."
+
+#: legacy/includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(Több hivatkozás)"
+
+#: legacy/core/core.php:3324
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d hivatkozás"
+msgstr[1] "%d hivatkozás"
+
+#: legacy/core/core.php:3336
+msgid "Detected %1$s in %2$s."
+msgstr "%1$s észlelve %2$sban."
+
+#: legacy/core/core.php:3330
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "%1$s észlelve %2$sban, és a keresésnek még nincs vége..."
+
+#: legacy/includes/admin/table-printer.php:897
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "Javaslatok"
+
+#: legacy/includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "Archivált oldal innen: %s (Wayback Machine oldalról)"
+
+#: legacy/core/core.php:1202
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "Bizonytalan-, vagy kisebb problémák megjelenítése \"figyelmeztetésként\" a \"nem működő\" helyett."
+
+#: legacy/core/core.php:2733
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "Figyelmeztetési beállítások módosítása"
+
+#: legacy/core/core.php:1206
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "Az opció kikapcsolásával a bővítmény minden problémát nem működő hivatkozásként fog megjeleníteni."
+
+#: legacy/core/core.php:1796
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "Írjuk be az egyéni mezők neveit amelyeket ellenőrizni akarunk (soronként egyet). Ha egy mező HTML kódot tartalmaz, írjuk a neve elé, hogy <code>html:</code>. Például: <code>html:field_name</code>"
+
+#: legacy/core/core.php:1174
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "Ezek a beállítások csak a bejegyzések tartalmára vonatkoznak, a hozzászólásokra és az egyéni mezőkre nem."
+
+#: legacy/core/core.php:1413
+msgid "Show the dashboard widget for"
+msgstr "A vezérlőpulton való megjelenítés a következő szerepkörök számára"
+
+#: legacy/core/core.php:1418
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "Adminisztrátor"
+
+#: legacy/core/core.php:1419
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "Szerkesztő és magasabb"
+
+#: legacy/includes/admin/table-printer.php:892
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/table-printer.php:887
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "Szöveg"
+
+#: legacy/includes/admin/table-printer.php:884
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "Hivatkozás módosítása"
+
+#: legacy/core/core.php:1420
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "Senki (kikapcsolja a widget-et)"
+
+#: legacy/core/core.php:1520
+msgid "Target resource usage"
+msgstr "Cél erőforráshasználat"
+
+#: legacy/core/core.php:2652
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "%d hivatkozás elvetve"
+msgstr[1] "%d hivatkozás elvetve"
+
+#: legacy/includes/admin/table-printer.php:746
+msgid "Replace this redirect with a direct link"
+msgstr "Átirányítás cseréje közvetlen hivatkozásra"
+
+#: legacy/includes/admin/table-printer.php:917
+msgid "Use this URL"
+msgstr "Ezen URL használata"
+
+#: legacy/core/core.php:4035
+msgid "Database character set"
+msgstr "Adatbázis karakterkészlet"
+
+#: legacy/core/core.php:2727
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "Elrejtés"
+
+#: legacy/core/core.php:2722
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "A \"Figyelmeztetések\" oldal olyan problémákat listáz, melyek valószínűleg ideiglenesek vagy gyanúsan fals pozitív találatok.<br> Figyelmeztetések, melyek hosszú ideig megmaradnak, általában újraosztályozódnak és átkerülnek a nem működő hivatkozások közé."
+
+#: legacy/core/core.php:1436
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "Mutassa a következő hivatkozásműveleteket"
+
+#: legacy/core/core.php:2777
+msgid "Show on screen"
+msgstr "Egy képernyőn"
+
+#: legacy/core/core.php:2784
+msgid "links"
+msgstr "hivatkozás"
+
+#: legacy/core/core.php:2804
+msgid "Highlight links broken for at least %s days"
+msgstr "Legalább %s napja nem működő hivatkozások kiemelése"
+
+#: legacy/core/core.php:2813
+msgid "Color-code status codes"
+msgstr "Színes állapotkódok"
+
+#: legacy/includes/admin/table-printer.php:291
+msgid "Bulk Actions"
+msgstr "Csoportművelet"
+
+#: legacy/includes/admin/table-printer.php:351
+msgid "Bulk Edit URLs"
+msgstr "URL-címek csoportos szerkesztése"
+
+#: app/admin-pages/cloud-page/class-controller.php:86
+msgid "Link Checker"
+msgstr "Link ellenőrző"

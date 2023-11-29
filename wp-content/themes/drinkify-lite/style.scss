@@ -1,0 +1,45 @@
+/*
+Theme Name: Drinkify Lite
+Theme URI: https://catchthemes.com/themes/drinkify-lite
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Drinkify Lite is a free eCommerce WordPress block theme perfect to create a website for a liquor shop. This block-based theme is ideal for liquor stores, brewery beer, drink stores, pubs, cafes, restaurants, wineries, and any online businesses. It comes with a sleek and unique design that lets you sell your products online. Its amazing pre-designed pages will assist you in creating an attractive and user-friendly website. With the help of Drinkify Lite, you will be able to showcase a variety of your products that are available at your store. Moreover, there are 15+ block patterns, 20 Templates, and 11 Template Parts available in this theme. Some of the block patterns are 404 Header With Background, Archive Header With Background, Best Seller, Footer With Three Columns, Header Media, Header Transparent With Search Cart, Hero Content, Logo, Post Header With Background, Recent Blog, and many more. The theme includes a wide range of layout options and tons of powerful features. This theme is specially designed for eCommerce stores and other wine-related projects. It is packed with an amazing page layout that lets you showcase your products in the best light.
+Requires at least: 5.9
+Tested up to: 6.3
+Requires PHP: 7.4
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: drinkify-lite
+Tags: e-commerce, portfolio, photography, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing, threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Drinkify Lite is based on Catch FSE WordPress Theme, 2012-2023 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+/*--------------------------------------------------------------
+# Mixin
+--------------------------------------------------------------*/
+@import "sass/mixin/mixin";
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import "sass/media-query";
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import "sass/color";

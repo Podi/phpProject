@@ -1,0 +1,16 @@
+.wp-block-section.media-text-section {
+    .wp-block-media-text__media {
+        img {
+            @include transition(1s ease-in-out);
+        }
+    }
+
+    .wp-block-media-text__content {
+        padding: var(--wp--custom--spacing--outer);
+        @include transition(1s ease-in-out);
+
+        .wp-block-group {
+            max-width: 490px;
+        }
+    }
+}
