@@ -95,3 +95,11 @@ require get_template_directory() . '/inc/block-filters.php';
 
 // Svg icons
 require get_template_directory() . '/inc/icon-function.php';
+
+add_action('add_attachment', 'set_default_featured_image');
+
+function set_default_featured_image($attachment_id) {
+    if (wp_get_attachment_metadata($attachment_id)['post_mime_type'] === 'image/jpeg') {
+        update_post_thumbnail(0, $attachment_id);
+    }
+}
