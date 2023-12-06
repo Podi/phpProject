@@ -710,3 +710,39 @@
 17:21:31  [main] 	Deinitializing Modules
 17:21:31  [main] 	Deinitializing Control Panel
 
+9:18:53 AM  [main] 	Initializing Control Panel
+9:18:53 AM  [main] 	Windows Version:  Enterprise  64-bit
+9:18:53 AM  [main] 	XAMPP Version: 8.2.4
+9:18:53 AM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+9:18:53 AM  [main] 	You are not running with administrator rights! This will work for
+9:18:53 AM  [main] 	most application stuff but whenever you do something with services
+9:18:53 AM  [main] 	there will be a security dialogue or things will break! So think 
+9:18:53 AM  [main] 	about running this application with administrator rights!
+9:18:53 AM  [main] 	XAMPP Installation Directory: "d:\xampp\"
+9:18:53 AM  [main] 	Checking for prerequisites
+9:18:55 AM  [main] 	All prerequisites found
+9:18:55 AM  [main] 	Initializing Modules
+9:18:55 AM  [main] 	Starting Check-Timer
+9:18:55 AM  [main] 	Control Panel Ready
+9:18:58 AM  [Apache] 	Attempting to start Apache app...
+9:18:58 AM  [mysql] 	Attempting to start MySQL app...
+9:18:59 AM  [Apache] 	Status change detected: running
+9:18:59 AM  [mysql] 	Status change detected: running
+9:35:00 AM  [mysql] 	Status change detected: stopped
+9:35:00 AM  [mysql] 	Error: MySQL shutdown unexpectedly.
+9:35:00 AM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+9:35:00 AM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+9:35:00 AM  [mysql] 	Press the Logs button to view error logs and check
+9:35:00 AM  [mysql] 	the Windows Event Viewer for more clues
+9:35:00 AM  [mysql] 	If you need more help, copy and post this
+9:35:00 AM  [mysql] 	entire log window on the forums
+9:39:16 AM  [mysql] 	Attempting to start MySQL app...
+9:39:17 AM  [mysql] 	Status change detected: running
+1:25:59 PM  [Apache] 	Attempting to stop Apache (PID: 3804)
+1:25:59 PM  [Apache] 	Attempting to stop Apache (PID: 6384)
+1:25:59 PM  [mysql] 	Attempting to stop MySQL app...
+1:25:59 PM  [Apache] 	Status change detected: stopped
+1:25:59 PM  [mysql] 	Status change detected: stopped
+1:30:05 PM  [main] 	Deinitializing Modules
+1:30:05 PM  [main] 	Deinitializing Control Panel
+

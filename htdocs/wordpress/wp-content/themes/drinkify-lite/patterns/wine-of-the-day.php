@@ -14,7 +14,7 @@
     <img id="wine-of-the-day-image" alt="Loading..." class="image">
   </div>
 
-  <h3 id="wine-of-the-day-country">Country of orign: Loading...</h3>
+  <h3 id="wine-of-the-day-country">Country of origin: Loading...</h3>
 
   <h3 id="wine-of-the-day-price">Price: Loading...</h3>
 
