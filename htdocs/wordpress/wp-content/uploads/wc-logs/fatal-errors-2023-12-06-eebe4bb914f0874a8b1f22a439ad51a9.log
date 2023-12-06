@@ -1,0 +1,196 @@
+2023-12-06T09:17:07+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\block-patterns.php(382): include()
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): _register_theme_block_patterns('')
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-cron.php(46): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php on line 15
+
+2023-12-06T09:17:19+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\block-patterns.php(382): include()
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): _register_theme_block_patterns('')
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php on line 15
+
+2023-12-06T09:17:41+00:00 CRITICAL Uncaught Error: Undefined constant "message" in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\block-patterns.php(382): include()
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): _register_theme_block_patterns('')
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\post.php(12): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php on line 15
+
+2023-12-06T09:17:45+00:00 CRITICAL Uncaught Error: Undefined constant "message" in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\block-patterns.php(382): include()
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): _register_theme_block_patterns('')
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\post.php(12): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php on line 15
+
+2023-12-06T09:18:49+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\block-patterns.php(382): include()
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): _register_theme_block_patterns('')
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\post.php(12): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php on line 15
+
+2023-12-06T09:18:53+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\block-patterns.php(382): include()
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): _register_theme_block_patterns('')
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\post.php(12): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php on line 15
+
+2023-12-06T09:19:20+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\block-patterns.php(382): include()
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): _register_theme_block_patterns('')
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\post.php(12): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php on line 15
+
+2023-12-06T09:19:24+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\block-patterns.php(382): include()
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): _register_theme_block_patterns('')
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\post.php(12): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\patterns\wine-of-the-day.php on line 15
+
+2023-12-06T11:24:04+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php:124
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\rest-api.php(124): trim(Array, '/')
+#1 D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php(109): register_rest_route('wine-of-the-day', Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): register_endpoint('')
+#3 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#6 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php on line 124
+
+2023-12-06T11:25:01+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php:124
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\rest-api.php(124): trim(Array, '/')
+#1 D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php(109): register_rest_route('wine-of-the-day', Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): register_endpoint('')
+#3 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#6 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php on line 124
+
+2023-12-06T11:26:05+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php:124
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\rest-api.php(124): trim(Array, '/')
+#1 D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php(109): register_rest_route('wine-of-the-day', Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): register_endpoint('')
+#3 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#6 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php on line 124
+
+2023-12-06T11:27:02+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php:124
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\rest-api.php(124): trim(Array, '/')
+#1 D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php(109): register_rest_route('wine-of-the-day', Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): register_endpoint('')
+#3 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#6 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php on line 124
+
+2023-12-06T11:28:06+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php:124
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\rest-api.php(124): trim(Array, '/')
+#1 D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php(109): register_rest_route('wine-of-the-day', Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): register_endpoint('')
+#3 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#6 D:\xampp\htdocs\wordpress\wp-config.php(82): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\wordpress\wp-includes\rest-api.php on line 124
+
+2023-12-06T11:58:17+00:00 CRITICAL syntax error, unexpected token "." in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php on line 129
+
+2023-12-06T12:00:18+00:00 CRITICAL syntax error, unexpected token "." in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php on line 129
+
+2023-12-06T12:00:30+00:00 CRITICAL syntax error, unexpected token "." in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php on line 129
+
+2023-12-06T12:00:42+00:00 CRITICAL syntax error, unexpected token "." in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php on line 129
+
+2023-12-06T12:00:57+00:00 CRITICAL syntax error, unexpected token "." in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php on line 129
+
+2023-12-06T12:01:19+00:00 CRITICAL syntax error, unexpected token "." in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php on line 129
+
+2023-12-06T12:19:36+00:00 CRITICAL syntax error, unexpected variable "$wineOfTheDay" in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php on line 131
+
+2023-12-06T12:21:36+00:00 CRITICAL syntax error, unexpected variable "$wineOfTheDay" in D:\xampp\htdocs\wordpress\wp-content\themes\drinkify-lite\functions.php on line 131
+

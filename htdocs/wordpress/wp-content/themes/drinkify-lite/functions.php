@@ -49,7 +49,7 @@ if ( ! function_exists( 'drinkify_lite_styles' ) ) :
 			array(),
 			filemtime( get_theme_file_path( 'style.css' ) )
 		);
-		
+
 		wp_enqueue_script(
             'drinkify-lite-script',
             get_theme_file_uri( 'assets/js/custom.js' ),
@@ -57,6 +57,16 @@ if ( ! function_exists( 'drinkify_lite_styles' ) ) :
             filemtime( get_theme_file_path( 'assets/js/custom.js' ) ),
             true
         );
+
+        if (is_page('wine-of-the-day')) {
+          wp_enqueue_script(
+            'wine-of-the-day-script',
+            get_theme_file_uri( 'assets/js/wine-of-the-day.js' ),
+            array(),
+            filemtime( get_theme_file_path( 'assets/js/wine-of-the-day.js' ) ),
+            true
+          );
+        }
 	}
 
 endif;
@@ -64,11 +74,11 @@ endif;
 add_action( 'wp_enqueue_scripts', 'drinkify_lite_styles' );
 
 if ( ! function_exists( 'drinkify_lite_block_editor_styles' ) ) :
-    
+
     /**
      * Enqueue rtl editor styles
      */
-    
+
      function drinkify_lite_block_editor_styles() {
         if( is_rtl() ){
             wp_enqueue_style(
@@ -103,3 +113,25 @@ function set_default_featured_image($attachment_id) {
         update_post_thumbnail(0, $attachment_id);
     }
 }
+
+add_action( 'rest_api_init', 'prefix_register_example_routes' );
+
+function prefix_register_example_routes() {
+  register_rest_route( 'wine/v1', '/wine-of-the-day', array(
+      'methods'  => WP_REST_Server::READABLE,
+      'callback' => 'get_wine_of_the_day',
+  ) );
+}
+
+function get_wine_of_the_day(WP_REST_Request $request) {
+    $day = $request['day'];
+
+    $url = "https://wine-of-the-day.azurewebsites.net/api/wine-of-the-day";
+    $api_key = "A66ZQEVgwHyLQDVWEc0lnEDSBdLFBhzTsLbd_ZQvQIlBAzFuwN7Itg==";
+
+    $wineOfTheDay = file_get_contents("{$url}?day={$day}&code={$api_key}");
+    $wineOfTheDay = json_decode($wineOfTheDay, true);
+
+    return rest_ensure_response($wineOfTheDay);
+}
+
